@@ -1,3 +1,4 @@
+import Banner from "./_components/banner";
 import Casino from "./_components/casino";
 import Exclusives from "./_components/exclusives";
 import Hero from "./_components/hero";
@@ -18,6 +19,7 @@ export default function Home() {
       <TopProviders />
       <LiveGames />
       <LiveCasino />
+      <Banner />
     </>
   );
 }
