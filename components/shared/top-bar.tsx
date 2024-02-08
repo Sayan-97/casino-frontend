@@ -2,6 +2,7 @@ import Image from "next/image";
 import AppLogo from "@/public/svgs/AppLogo.svg";
 import Account from "@/components/shared/account";
 import Profile from "./profile";
+import Wheel from "./wheel-of-fortune";
 
 export default function TopBar() {
   return (
@@ -14,6 +15,7 @@ export default function TopBar() {
         className="lg:hidden"
       />
       <div className="flex items-center gap-2">
+        <Wheel />
         <Account />
         <Profile />
       </div>
