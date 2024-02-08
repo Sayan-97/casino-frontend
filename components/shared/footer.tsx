@@ -12,7 +12,7 @@ import USDT from "@/public/imgs/usdt2.png";
 export default function Footer() {
   return (
     <footer className="container py-2 space-y-2">
-      <div className="grid grid-cols-2 gap-6 py-4 border-t border-white/20">
+      <div className="grid grid-cols-2 lg:grid-cols-5 gap-6 py-4 border-t border-white/20">
         <div className="flex flex-col gap-2">
           <h2 className="text-base font-semibold">Sports</h2>
           <ul className="space-y-1">

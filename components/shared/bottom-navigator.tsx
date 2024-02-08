@@ -8,7 +8,7 @@ import React, { useState } from "react";
 export default function BottomNavigator() {
   const [active, setActive] = useState("Home");
   return (
-    <nav className="sticky inset-x-0 bottom-0 bg-accent z-40">
+    <nav className="lg:hidden sticky inset-x-0 bottom-0 bg-accent z-40">
       <ul className="container grid grid-cols-5">
         {bottomNavMenus.map((item, index) => (
           <li key={index}>
