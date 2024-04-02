@@ -79,25 +79,20 @@ export const topNavMenus = [
   {
     icon: TopNavSports,
     label: "Sports",
-    link: "/",
+    link: "/sports",
   },
   {
     icon: TopNavCasino,
     label: "Casino",
-    link: "/",
-  },
-  {
-    icon: TopNavLive,
-    label: "Live",
-    link: "/",
+    link: "/casino",
   },
   {
     icon: TopNavLiveSports,
-    label: "Games",
-    link: "/",
+    label: "Live",
+    link: "/live",
   },
 ];
-
+ 
 export const topBanner = [
   {
     title: "Bonus on deposit up to 300%",

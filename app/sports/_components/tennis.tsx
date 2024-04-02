@@ -10,7 +10,7 @@ import { Clock } from "lucide-react";
 
 export default function Tennis() {
   return (
-    <Accordion type="single" collapsible className="container">
+    <Accordion type="single" collapsible className="">
       <AccordionItem value="item-1">
         <AccordionTrigger>
           <Head image={TennisImg} title="Tennis" />

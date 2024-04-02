@@ -9,7 +9,7 @@ import Dota2 from "./_components/dots-2";
 
 export default function Sports() {
   return (
-    <>
+    <div className="lg:container">
       <Soccer />
       <IceHockey />
       <Basketball />
@@ -17,6 +17,6 @@ export default function Sports() {
       <Volleyball />
       <CS2 />
       <Dota2 />
-    </>
+    </div>
   );
 }

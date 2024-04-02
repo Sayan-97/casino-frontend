@@ -15,6 +15,6 @@
 
 @layer base {
   body {
-    @apply w-full min-h-screen bg-background text-foregorund text-sm flex flex-col overflow-x-hidden;
+    @apply relative w-full min-h-screen bg-background text-foregorund text-sm flex flex-col overflow-x-hidden;
   }
 }

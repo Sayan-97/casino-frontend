@@ -4,7 +4,7 @@ import Account from "@/components/shared/account";
 import Profile from "./profile";
 import Wheel from "./wheel-of-fortune";
 
-export default function TopBar() {
+export default function Header() {
   return (
     <header className="max-md:container lg:px-2 py-3 flex items-center justify-between lg:justify-end">
       <Image
